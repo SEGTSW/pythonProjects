@@ -79,7 +79,7 @@ class Customer:
             self.bill.add(cost)
             print(f"{self.name} talked to {other.name} for {minute} minutes. Cost: {cost}.")
         else:
-            print(f"Not enough balance for a {minute}-minute call.")
+            print(f"No enough balance for a {minute}-minute call.")
 
     # Message method
     def message(self, quantity, other):
